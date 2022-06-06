@@ -1,18 +1,18 @@
 body {
   margin: auto;
-  padding: auto;
 }
+
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(assets/imgs/discord-avatar-1024-TESDE.png);
-  height: auto;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-image: url(/assets/imgs/discord-avatar-512-7B9X0.gif),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 169px;
+    max-width: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: relative;
+    object-fit: fill;
 }
 
 /* Place text in the middle of the image */
@@ -23,4 +23,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+ul {
+  list-style-type: none;
+  float: left;
 }
