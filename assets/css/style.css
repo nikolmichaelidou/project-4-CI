@@ -1,18 +1,18 @@
 body {
   margin: auto;
+  background-color: rgb(0, 0, 0);
 }
 
 /* The hero image */
 .hero-image {
-  background-image: url(/assets/imgs/discord-avatar-512-7B9X0.gif),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    height: 169px;
-    max-width: 100%;
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    position: relative;
-    object-fit: fill;
+  background-image: url(/assets/imgs/discord-avatar-512-7B9X0.gif);
+  height: 169px;
+  max-width: 100%;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  position: relative;
+  object-fit: fill;
 }
 
 /* Place text in the middle of the image */
@@ -27,5 +27,5 @@ body {
 
 ul {
   list-style-type: none;
-  float: left;
+  text-transform: uppercase;
 }
