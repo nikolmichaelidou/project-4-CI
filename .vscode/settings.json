@@ -23,5 +23,8 @@
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Shades of Purple",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+   }
 }
