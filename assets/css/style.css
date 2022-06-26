@@ -28,13 +28,13 @@ ul {
 	text-transform: uppercase;
 }
 
-/* Google Maps */
-div#map {
-	height: 350px;
-	width: 350px;
+/* News */
+#inner-news {
+	/* float: left; */
+	width: 1012px;
 }
 
 /* Twitter News */
-#twitter-news {
+#inner-twitter {
 	float: right;
 }
