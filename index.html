@@ -31,9 +31,9 @@
         <h5 class="text-white h4">More content</h5>
         <span id="nav-content">
           <ul>
-            <li>non-gaming related news</li>
-            <li>pride content</li>
-            <li>contact us</li>
+            <li><a href="#">non-gaming related news</a></li>
+            <li><a href="#">pride content</a></li>
+            <li><a href="#">contact us</a></li>
           </ul>
         </span>
       </div>
@@ -47,25 +47,25 @@
         </button>
       </div>
     </nav>
-    <!-- Left Panel -->
-    <div class="col-sm-6" id="left-panel">
-      <h3>Events</h3>
-      <!-- Map -->
-      <div id="map">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+    <div class="col-sm-6" id="News">
+      <script
+        src="//rss.bloople.net/?url=https%3A%2F%2Fwww.ea.com%2Fen-gb%2Fgames%2Fapex-legends%2Fnews%2Fawakening-collection-event&showicon=true&showempty=true&striphtml=true&forceutf8=true&fixbugs=true&type=js">
+      </script>
+
+      <!-- Twitter News -->
+      <div class="col-sm-6" id="twitter-news">
+        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/PlayApex?ref_src=twsrc%5Etfw">Tweets by
+          PlayApex</a>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=PrideMonth&ref_src=twsrc%5Etfw"
+          class="twitter-hashtag-button" data-show-count="false">Tweet #PrideMonth</a>
       </div>
     </div>
-    <div class="col-sm-6" id="News">
-      
-    </div>
     <footer></footer>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="assets/js/script.js"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu1D_7uapNHtG-ezWmXAf2Fc5exJKAdZ0&callback=initMap&v=weekly">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu1D_7uapNHtG-ezWmXAf2Fc5exJKAdZ0&callback=initMap&v=weekly"
+      defer async>
     </script>
   </body>
 
