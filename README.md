@@ -2,6 +2,8 @@
 
 ## Description
 
+Gaymer Daily is a website for lgbt gaymers. 
+
 ## Technologies
 
 ## Bugs
