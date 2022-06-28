@@ -2,10 +2,16 @@
 
 ## Description
 
-Gaymer Daily is a website for lgbt gaymers. 
+Gaymer Daily is a website for LGBT gaymers that enjoy Apex Legends but would also like to know/keep up with more LGBT characters across all forms of media.
+
+<hr>
 
 ## Technologies
 
 ## Bugs
 
 - Google Map API not showing map clusters on map.
+
+## Future Implementations
+
+-
