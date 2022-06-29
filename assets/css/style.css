@@ -80,7 +80,7 @@ ul {
 
 /* Footer */
 footer {
-	background: #343434; 
+	background: #343434;
 	color: white;
 	text-align: center;
 }
@@ -88,4 +88,12 @@ footer {
 #form {
 	border: black 5px;
 	background: aliceblue;
+}
+
+@media (max-width: 1472px ) {
+	#inner-twitter {
+		width: 1000px;
+		float: none;
+		padding: none;
+	}
 }
