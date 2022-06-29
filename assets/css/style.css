@@ -1,12 +1,11 @@
 body {
-	margin: auto;
 	background: linear-gradient(180deg, #FE0000 16.66%,
 			#FD8C00 16.66%, 33.32%,
 			#FFE500 33.32%, 49.98%,
 			#119F0B 49.98%, 66.64%,
 			#0644B3 66.64%, 83.3%,
 			#C22EDC 83.3%);
-	text-transform: uppercase;		
+	text-transform: uppercase;
 }
 
 /* The hero image */
@@ -76,4 +75,13 @@ ul {
 #inner-twitter {
 	float: right;
 	padding: 5px;
+}
+
+/* Footer */
+footer {
+	background: linear-gradient(#E5ABD0 57.14%,
+			#C74D52 71.425%);
+	color: black;
+	text-align: center;
+	margin-top: 5px;
 }
