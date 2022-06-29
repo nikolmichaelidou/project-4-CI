@@ -63,7 +63,8 @@ There is not enough representation so a website like this that tries popularize 
 - Tips page
   - A page where it would feature videos and blogs on how to improve your gameplay as Loba or Valkyrie
 - Community Page
-  - A page where users would able to share gameplay clips and fan-art 
+  - A page where users would able to share gameplay clips and fan-art
+  - With the ability for users to Login and even take notes from the Tip page for their own gameplay 
 
 ## Deployment 
 
