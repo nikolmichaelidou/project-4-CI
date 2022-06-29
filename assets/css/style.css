@@ -1,4 +1,5 @@
 body {
+	margin: auto;
 	background: linear-gradient(180deg, #FE0000 16.66%,
 			#FD8C00 16.66%, 33.32%,
 			#FFE500 33.32%, 49.98%,
@@ -79,9 +80,12 @@ ul {
 
 /* Footer */
 footer {
-	background: linear-gradient(#E5ABD0 57.14%,
-			#C74D52 71.425%);
-	color: black;
+	background: #343434; 
+	color: white;
 	text-align: center;
-	margin-top: 5px;
+}
+
+#form {
+	border: black 5px;
+	background: aliceblue;
 }
