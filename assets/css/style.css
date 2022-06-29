@@ -36,24 +36,18 @@ ul {
 
 /* Google Maps */
 #map {
-	height: 350px;
-	/* The height is 400 pixels */
-	width: 350px;
-	/* The width is the width of the web page */
+	height: 400px;
+	width: 100%;
 }
 
-#left-panel {
-	margin-left: auto;
-	margin-right: 35px;
-	margin-bottom: 50px;
-	height: min-content;
-	width: min-content;
+#locations {
+	margin-left: 292px;
+	height: max-content;
+	width: max-content;
 	border: solid;
 	text-align: center;
-	float: left;
 	padding-top: 45px;
-	background: linear-gradient(#E5ABD0 57.14%,
-			#C74D52 71.425%);
+	background: linear-gradient(#E5ABD0 57.14%, #C74D52 71.425%);
 	color: black;
 	position: relative;
 }
@@ -90,7 +84,7 @@ footer {
 	background: aliceblue;
 }
 
-@media (max-width: 1472px ) {
+@media (max-width: 1472px) {
 	#inner-twitter {
 		width: 1000px;
 		float: none;
