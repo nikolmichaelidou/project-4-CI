@@ -1,18 +1,17 @@
 
-// Google Maps //
+// Google Maps Javascript directly from documentation
+
 function initMap ()
 {
     const map = new google.maps.Map( document.getElementById( "map" ), {
-        zoom: 6,
-        center: { lat: 51.92824554956347, lng: 4.524163786173565 }
+        zoom: 9,
+        center: { lat: 52.14165267826279, lng: 4.717556685250915 },
     } );
     const infoWindow = new google.maps.InfoWindow( {
         content: "",
         disableAutoPan: true,
     } );
-    // An array of alphabetical characters used to label the markers.
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    // Add some markers to the map.
     const markers = locations.map( ( position, i ) =>
     {
         const label = labels[ i % labels.length ];
@@ -29,16 +28,12 @@ function initMap ()
         return marker;
     } );
 
-    // Add a marker clusterer to manage the markers.
-    new markerClusterer( { map, markers } );
+    const markerCluster = new markerClusterer.MarkerClusterer( { map, markers } );
 }
 
 const locations = [
-    { lat: -33.718234, lng: 150.363181 },
-    { lat: -33.727111, lng: 150.371124 },
-    { lat: 52.12119841758262, lng: 4.279310900297896 },
-    { lat: 52.07799717535008, lng: 4.294741738657255 },
+    { lat: 52.14165267826279, lng: 4.717556685250915 }, // Esports Game Arena
+    { lat: 52.1273227, lng: 4.361874317914339 }, // Gammax Gaming & Esports Center
 ];
 
 window.initMap = initMap;
-const markerCluster = new markerClusterer.MarkerClusterer( { map, markers } );
